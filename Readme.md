@@ -4,12 +4,12 @@ Adds the possibility of compiling PHP for Jade
 
 ## Usage
 
-	var jade = require('jade');
-	var jadephp = require('jade-php');
+	var pug = require('pug');
+	var pugphp = require('pug-php');
 
-	jadephp(jade);
+	pugphp(pug);
 
-    var html = jade.render('string of jade');
+    var html = pug.render('string of pug');
 
 ## Example
 

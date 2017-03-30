@@ -1,7 +1,7 @@
-module.exports = function (jade) {
-    if (typeof jade === 'undefined') {
-        jade = require('jade');
+module.exports = function (pug) {
+    if (typeof pug === 'undefined') {
+        pug = require('pug');
     }
-    require('./lib/filters')(jade);
-    require('./lib/compiler')(jade);
+    require('./lib/filters')(pug);
+    require('./lib/compiler')(pug);
 };
